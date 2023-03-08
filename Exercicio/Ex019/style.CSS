@@ -1,0 +1,14 @@
+@charset "UFT-8";
+
+body {
+    background-color: rgb(176, 109, 209);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+    color: rgb(197, 29, 29);}
+h1#principal { text-align: center; background-color: aquamarine;}
+h2 {
+    color: rgb(112, 62, 25);}
+.basico { color: blueviolet;font-weight: bolder;}
+.intermediario { color: rgb(84, 110, 160);}
+.avancado { color: darkcyan;}

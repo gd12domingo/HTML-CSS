@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinamicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagem/images.jpg" type="image/jpg">
+        <source media="(max-width: 1000px)" srcset="imagem/foot.jpg" type="image/jpg">
+        <img src="imagem/manbu.jpg" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos aprender a reproduzir audio em HTML5.</p><audio src="Midia/musica.mp3" controls autoplay></audio>
+    <audio> 
+        <source src="Midia/Miley Cyrus - Flowers (Lyrics).mp3" type="audio/mpeg">
+        <source src="Midia/Miley Cyrus - Flowers (Lyrics).ogg" type="audio/ogg">
+        <source src="Midia/musica.wav" type="audio/wav">
+        
+    </audio>
+</body>
+</html>

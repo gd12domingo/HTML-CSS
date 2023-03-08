@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: skyblue;
+            margin: 10px;}
+
+        h1 { 
+            border: 20px solid;
+            padding: 5px;
+            border-image-source: url('burder.png');
+            border-image-slice: 5;
+            border-image-repeat: repeat;
+            box-shadow: 1px 2px 2px 2px black;
+        }
+
+        header { 
+            background-color: rgba(219, 132, 219, 0.889);
+            padding: 20px;
+            margin: 15px;}
+    
+
+        nav {
+            background-color: blue; padding: 2px;
+            box-shadow: 4px  4px  4px  black;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: whitesmoke;
+            font-weight: bold;
+            margin: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main { 
+            background-color: whitesmoke;
+            padding: 10px; 
+            margin: 2px;
+            border-radius: 10px; 
+            box-shadow: 4px 4px 0px 0px black
+        }
+             
+
+    article { 
+            background-color:rgb(167, 112, 167); 
+            padding: 5px;}
+
+    footer { 
+            background-color: rgb(79, 79, 197); 
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            padding: 0px; 
+            margin: 1px;}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu primeiro site</h1>
+        <nav>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+        </nav>
+    </header>
+    <main>
+        <saction id="Assuntos">    
+            <P>Desportos politica & Tecnologia </P>
+        </saction> 
+        <section id="Noticias">
+            <article>
+                <h2>Noticias sobre Angola</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor vitae a nam minus, minima quia obcaecati. Sit nisi enim ex obcaecati nobis omnis quam fuga quos voluptate? Minus, quo quae?</p>
+                <aside>
+                    <p id="">Artigo escrito por Jacobino o Fidalgo</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Este artigo foi patrocinado pela maisQkizomba</p>
+    </footer>
+    <div id="Bola"></div>
+</body>
+</html>

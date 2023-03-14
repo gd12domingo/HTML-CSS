@@ -14,6 +14,13 @@
         table { width: 500px;
                 border-collapse: collapse}
 
+        caption { 
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
         td, th { border: 1px solid black;
                  padding: 10px;
                          }
@@ -33,44 +40,45 @@
 <body>
     <h1>Uso de tabelas grandes</h1>
     <table>
+        <caption>Populacao da Republica de Angola</caption>
         <thead>
             <tr>
                 <td align="center">Posicao</td>
-                <th>Estado</th>
-                <th>Populacao</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">Populacao</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td align="center" style="background: #f0f0f0;">1</td>
-                <td id="t1">Luanda</td>
+                <td>Luanda</td>
                 <td class="num">2 776 125</td>
             </tr>
             <tr>
                 <td td align="center" style="background: #f0f0f0;">2</td>
-                <td id="t2">Bengula</td>
+                <td>Bengula</td>
                 <td class="num">805 000</td>
             </tr>
             <tr>
                 <td td align="center" style="background: #f0f0f0;">3</td>
-                <td id="t3">Huambo</td>
+                <td>Huambo</td>
                 <td class="num">1 204 000</td>
             </tr>
             <tr>
                 <td td align="center" style="background: #f0f0f0;">4</td>
-                <td id="t4">Lunda Norte</td>
+                <td>Lunda Norte</td>
                 <td class="num">125 751</td>
             </tr>
             <tr>
                 <td td align="center" style="background: #f0f0f0;">5</td>
-                <td id="t5">Kuito</td>
+                <td>Kuito</td>
                 <td class="num">113 624</td>
             </tr>
         </tbody>
         <tfoot>
             <tr>
                 <td align="center">6</td>
-                <th id="t6"><strong>Total de habitantes</strong></th>
+                <th scope="col"><strong>Total de habitantes</strong></th>
                 <td class="num">42.9678</td>
             </tr>
         </tfoot>

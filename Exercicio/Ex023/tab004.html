@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhar com tabela grandes</title>
+    <style>
+        body {
+            background-color: rgba(255, 255, 0, 0.364); 
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        table { width: 500px;
+                border-collapse: collapse}
+
+        caption { 
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        td, th { border: 1px solid black;
+                 padding: 10px;
+                         }
+
+        tbody > tr:nth-child(even) { 
+            background-color: lightgray;
+            font-weight: bold;
+        }
+
+        thead, tfoot {      
+                 background-color: gray;
+                 color: white;
+        }
+
+        td.num {
+                 text-align: right;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption>Populacao da Republica de Angola</caption>
+        <thead>
+            <tr>
+                <td align="center">Posicao</td>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">Populacao</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center" style="background: #f0f0f0;">1</td>
+                <td>Luanda</td>
+                <td class="num">2 776 125</td>
+            </tr>
+            <tr>
+                <td td align="center" style="background: #f0f0f0;">2</td>
+                <td>Bengula</td>
+                <td class="num">805 000</td>
+            </tr>
+            <tr>
+                <td td align="center" style="background: #f0f0f0;">3</td>
+                <td>Huambo</td>
+                <td class="num">1 204 000</td>
+            </tr>
+            <tr>
+                <td td align="center" style="background: #f0f0f0;">4</td>
+                <td>Lunda Norte</td>
+                <td class="num">125 751</td>
+            </tr>
+            <tr>
+                <td td align="center" style="background: #f0f0f0;">5</td>
+                <td>Kuito</td>
+                <td class="num">113 624</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td align="center">6</td>
+                <th scope="col"><strong>Total de habitantes</strong></th>
+                <td class="num">42.9678</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
